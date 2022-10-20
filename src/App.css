@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.bold {
+  font-weight: bold;
+} 
+
+const StyledButton=styled.button` background-color: $ {
+  props=>props.alt ? 'red': 'green'
+}
+
+;
+color: white;
+Font: inherit;
+border: 1px solid Blue;
+padding: 8px;
+cursor: pointer;
+border-radius: 4px;
+
+&:hover {
+  background-color: $ {
+    props=>props.alt ? 'salmon': 'lightgreen'
+  }
+
+  ;
+  color: black;
+}
+
+`;
